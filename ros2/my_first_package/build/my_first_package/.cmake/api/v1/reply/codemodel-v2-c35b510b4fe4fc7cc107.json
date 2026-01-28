@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-bf4ce9bd9d71fd3b9638.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "my_first_package",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "my_first_package_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_first_package_uninstall-a21ed6bc4d657ec910a5.json",
+					"name" : "my_first_package_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "publisher_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-publisher_node-2eaedc8601165a5ce553.json",
+					"name" : "publisher_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "subscriber_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-subscriber_node-b14ab42bc7f66e6ad710.json",
+					"name" : "subscriber_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-a16bc226e10dc26dfec8.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/mxy/projects/learnningProject/ros2/my_first_package/build/my_first_package",
+		"source" : "/home/mxy/projects/learnningProject/ros2/my_first_package"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
